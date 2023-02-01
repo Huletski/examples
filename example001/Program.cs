@@ -11,7 +11,7 @@ Console.WriteLine(numberOne + numberTwo);
 
 
 
-*/
+
 //code 3
 int numberA = new Random().Next(1, 10);
 Console.WriteLine(numberA);
@@ -20,9 +20,22 @@ Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
 
-
+*/
 
 
 
 //code 4
 
+
+Console.WriteLine("Enter username: ");
+string name = Console.ReadLine();
+
+ if (name.ToLower() == "sasha")
+ {
+    Console.WriteLine("Great!!!");
+    Console.WriteLine("Hello, Sasha !!! " );
+ }
+ else
+ {
+    Console.WriteLine("Greeting " + name);
+ }
